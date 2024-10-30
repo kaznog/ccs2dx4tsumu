@@ -1,0 +1,10 @@
+^C:\DEVELOPMENT\CCS2DX4TSUMU\COCOS2DX4_TSUMU\COCOS2D\EXTERNAL\CLIPPER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/ccs2dx4tsumu/cocos2dx4_tsumu -BC:/Development/ccs2dx4tsumu/cocos2dx4_tsumu/win32-build --check-stamp-file C:/Development/ccs2dx4tsumu/cocos2dx4_tsumu/win32-build/engine/external/clipper/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

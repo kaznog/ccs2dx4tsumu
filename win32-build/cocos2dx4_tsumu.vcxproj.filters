@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BlockSprite.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLES-Render.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BlockSprite.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\constant.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLES-Render.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Development\ccs2dx4tsumu\cocos2dx4_tsumu\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{9161DB09-E159-3D34-9DA9-3662A836D55C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{5EF568CD-A7D6-383E-8079-B442F8C624E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{FC40C6BB-6921-3175-AA02-915F3BD1068C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{24279454-C2AB-3548-8261-602E30E382A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{6A90ED22-3F25-35A6-BF4B-607C466B5917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{1B7CDE26-AF57-3D99-9B1B-3A070AB0953F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\game_blockdel_eff_01.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\game_blockdel_eff_anim.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\gameoverline.plist">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\textures.plist">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\game_blockdel_eff_01.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\textures.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

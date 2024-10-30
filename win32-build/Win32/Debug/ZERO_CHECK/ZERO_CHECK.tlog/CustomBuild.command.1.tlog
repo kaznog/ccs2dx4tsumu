@@ -1,0 +1,10 @@
+^C:\DEVELOPMENT\CCS2DX4TSUMU\COCOS2DX4_TSUMU\WIN32-BUILD\CMAKEFILES\AB1A40B4BFA9B15B617347E63494E9C0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/ccs2dx4tsumu/cocos2dx4_tsumu -BC:/Development/ccs2dx4tsumu/cocos2dx4_tsumu/win32-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/ccs2dx4tsumu/cocos2dx4_tsumu/win32-build/cocos2dx4_tsumu.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
