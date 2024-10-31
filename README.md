@@ -1,0 +1,1 @@
+Please extract `cocos2d.7z`. Create a build project for Visual Studio using the following commands: mkdir win32build cd win32build cmake .. -G"Visual Studio 16 2019" -Tv142 -A Win32 Open `cocos2dx4_tsumu.sln` in Visual Studio. Add any sources not registered in Classes. Set "cocos2dx4-tsumu" as the startup project in Solution Explorer.
